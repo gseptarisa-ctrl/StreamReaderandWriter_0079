@@ -17,3 +17,5 @@ int main()
     ofstream outfile;
     //menunjuk ke sebuah nama file dengan ekstentsi txt
     outfile.open(NamaFile + ".txt", ios::out);
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
